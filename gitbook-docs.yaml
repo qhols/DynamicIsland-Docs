@@ -1,0 +1,20 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: Dynamic Island SDK
+  structure:
+    - type: space
+      key: space-en
+      title: English
+      path: en
+      default: true
+      content:
+        directory: ./en
+        language: en
+    - type: space
+      key: space-ru
+      title: Русский
+      path: ru
+      content:
+        directory: ./ru
+        language: ru
