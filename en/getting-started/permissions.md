@@ -30,7 +30,7 @@ The answer is saved, so the prompt is shown once per script name.
 The user can change the answer at any time in the Umbrella menu:
 
 * **General > Dynamic Island > Alerts > Scripts:** a switch for every script that has asked.
-* The gear next to each switch has **Allow in Focus**. With it on, your notifications get through Focus mode.
+* The gear next to each switch has **Allow in Focus**, which lets your notifications through Focus mode, and **Sound**, which turns off only your script's sounds while the banners keep coming.
 * **Enable Island > More > Reset Script Permissions** forgets every answer, so each script asks again.
 
 {% hint style="info" %}

@@ -46,7 +46,7 @@ description: Иконки, цвета, уровни, звуки и причин�
 
 `Sound:` **`string`**
 
-Для `Notify`: `"default"`, `"chime"`, `"success"`, `"failure"`.
+Для `Notify`: `"default"`, `"chime"`, `"success"`, `"failure"`. Пользователь может выключить звуки оповещений вообще или только у твоего скрипта, так что уведомление может прийти без звука, даже если ты его попросил.
 
 Для `PlaySound` всё то же плюс собственные звуки островка: `notification_toast`, `timer_chime`, `courier_delivered`, `courier_death_or_fail`, `button_press`, `button_dismiss`, `wheel_notch`, `wheel_boundary_bump`, `island_expand`, `island_collapse`, `island_hover`, `toast_dismiss`.
 

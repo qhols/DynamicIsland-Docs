@@ -46,7 +46,7 @@ Without a tint, every script gets its own stable color from its name. On the lig
 
 `Sound:` **`string`**
 
-For `Notify`: `"default"`, `"chime"`, `"success"`, `"failure"`.
+For `Notify`: `"default"`, `"chime"`, `"success"`, `"failure"`. The user can turn off alert sounds for everything, or only for your script, so a notification can arrive silently even when you asked for a sound.
 
 For `PlaySound`, all of the above plus the island's own sounds: `notification_toast`, `timer_chime`, `courier_delivered`, `courier_death_or_fail`, `button_press`, `button_dismiss`, `wheel_notch`, `wheel_boundary_bump`, `island_expand`, `island_collapse`, `island_hover`, `toast_dismiss`.
 
