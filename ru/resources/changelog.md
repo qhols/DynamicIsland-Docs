@@ -1,0 +1,17 @@
+---
+icon: clock-rotate-left
+description: Что менялось в SDK.
+---
+
+# Список изменений
+
+## API 1
+
+Первая версия.
+
+* `DynamicIsland.Notify` с уровнями, звуками, иконками, цветами, плашкой справа, длинным текстом и до 2 кнопок.
+* `DynamicIsland.Activity.Start` с таймером, прогрессом, текстом справа, `onTap`, `onEnd` и `staleAfter`.
+* `End` с финальным содержимым и `after`.
+* `DynamicIslandQueue` для скриптов, которые грузятся раньше островка.
+* `DynamicIsland.PlaySound`, `Has`, `IsAllowed` и `Glyphs`.
+* Запрос разрешения для каждого скрипта, список скриптов и «Разрешить в фокусе» в настройках островка.
