@@ -5,6 +5,11 @@ description: Что менялось в SDK.
 
 # Список изменений
 
+## API 2
+
+* `DynamicIsland.Widget.Register`: свой виджет в редакторе виджетов рядом со встроенными. У объекта есть `Set`, `Update`, `Remove` и `IsOnIsland`.
+* `DynamicIsland.Has("widgets")`.
+
 ## API 1
 
 Первая версия.

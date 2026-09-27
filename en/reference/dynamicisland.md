@@ -11,7 +11,7 @@ Global table, read only. Writing into it throws an error, and if another script 
 
 `DynamicIsland.api:` **`integer`**
 
-Version of the SDK. Currently `1`. It only goes up when something is added, old code keeps working.
+Version of the SDK. Currently `2`. It only goes up when something is added, old code keeps working.
 
 ## version
 
@@ -30,6 +30,12 @@ Shows a notification. See [Notify](notify.md).
 `DynamicIsland.Activity.Start(options):` [**`ActivityHandle`**](activity-handle.md) | **`nil`**, **`string`**
 
 Starts a live activity. See [Activity](activity.md).
+
+## Widget.Register
+
+`DynamicIsland.Widget.Register(options):` [**`WidgetHandle`**](widget-handle.md) | **`nil`**, **`string`**
+
+Adds a widget the user can put into the island. See [Widget](widget.md).
 
 ## PlaySound
 
@@ -75,7 +81,7 @@ Returns `true` once the user has allowed this script. `false` while they haven't
 
 Tells you if this version of the island supports a feature. Useful when a newer SDK adds something and your script should still run on older ones.
 
-Features in API 1: `notify`, `activity`, `queue`, `levels`, `sounds`, `body`, `actions`, `trailing`, `onEnd`, `staleAfter`, `endAfter`, `playSound`, `focus`.
+Features in API 1: `notify`, `activity`, `queue`, `levels`, `sounds`, `body`, `actions`, `trailing`, `onEnd`, `staleAfter`, `endAfter`, `playSound`, `focus`. Added in API 2: `widgets`.
 
 <details>
 

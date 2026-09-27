@@ -11,7 +11,7 @@ description: Глобальная таблица, через которую лю
 
 `DynamicIsland.api:` **`integer`**
 
-Версия SDK. Сейчас `1`. Растёт только когда что-то добавляется, старый код продолжает работать.
+Версия SDK. Сейчас `2`. Растёт только когда что-то добавляется, старый код продолжает работать.
 
 ## version
 
@@ -30,6 +30,12 @@ description: Глобальная таблица, через которую лю
 `DynamicIsland.Activity.Start(options):` [**`ActivityHandle`**](activity-handle.md) | **`nil`**, **`string`**
 
 Запускает живую активность. Подробно в [Activity](activity.md).
+
+## Widget.Register
+
+`DynamicIsland.Widget.Register(options):` [**`WidgetHandle`**](widget-handle.md) | **`nil`**, **`string`**
+
+Добавляет виджет, который пользователь может поставить в островок. Подробно в [Widget](widget.md).
 
 ## PlaySound
 
@@ -75,7 +81,7 @@ end
 
 Говорит, поддерживает ли эта версия островка нужную возможность. Пригодится, когда в новом SDK что-то добавится, а скрипт должен работать и на старых версиях.
 
-Возможности в API 1: `notify`, `activity`, `queue`, `levels`, `sounds`, `body`, `actions`, `trailing`, `onEnd`, `staleAfter`, `endAfter`, `playSound`, `focus`.
+Возможности в API 1: `notify`, `activity`, `queue`, `levels`, `sounds`, `body`, `actions`, `trailing`, `onEnd`, `staleAfter`, `endAfter`, `playSound`, `focus`. Добавлено в API 2: `widgets`.
 
 <details>
 

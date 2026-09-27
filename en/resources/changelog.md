@@ -5,6 +5,11 @@ description: What changed in the SDK.
 
 # Changelog
 
+## API 2
+
+* `DynamicIsland.Widget.Register`: your own widget in the widget editor, next to the built-in ones. The handle has `Set`, `Update`, `Remove` and `IsOnIsland`.
+* `DynamicIsland.Has("widgets")`.
+
 ## API 1
 
 The first version.

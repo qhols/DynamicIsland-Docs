@@ -13,6 +13,8 @@
 * [Notify](reference/notify.md)
 * [Activity](reference/activity.md)
 * [ActivityHandle](reference/activity-handle.md)
+* [Widget](reference/widget.md)
+* [WidgetHandle](reference/widget-handle.md)
 * [DynamicIslandQueue](reference/queue.md)
 * [Types](reference/types.md)
 
