@@ -81,7 +81,7 @@ Returns `true` once the user has allowed this script. `false` while they haven't
 
 Tells you if this version of the island supports a feature. Useful when a newer SDK adds something and your script should still run on older ones.
 
-Features in API 1: `notify`, `activity`, `queue`, `levels`, `sounds`, `body`, `actions`, `trailing`, `onEnd`, `staleAfter`, `endAfter`, `playSound`, `focus`. Added in API 2: `widgets`.
+Features in API 1: `notify`, `activity`, `queue`, `levels`, `sounds`, `body`, `actions`, `trailing`, `onEnd`, `staleAfter`, `endAfter`, `playSound`, `focus`. Added in API 2: `widgets`, `faceId`.
 
 <details>
 

@@ -9,6 +9,7 @@ description: What changed in the SDK.
 
 * `DynamicIsland.Widget.Register`: your own widget in the widget editor, next to the built-in ones. The handle has `Set`, `Update`, `Remove` and `IsOnIsland`.
 * `DynamicIsland.Has("widgets")`.
+* `DynamicIsland.FaceID`: the Face ID animation on the island, green on `ok`, red with a shake on `fail`. `DynamicIsland.Has("faceId")`.
 
 ## API 1
 

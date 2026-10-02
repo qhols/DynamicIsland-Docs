@@ -9,6 +9,7 @@ description: Что менялось в SDK.
 
 * `DynamicIsland.Widget.Register`: свой виджет в редакторе виджетов рядом со встроенными. У объекта есть `Set`, `Update`, `Remove` и `IsOnIsland`.
 * `DynamicIsland.Has("widgets")`.
+* `DynamicIsland.FaceID`: анимация Face ID на островке, зелёная при `ok`, красная с тряской при `fail`. `DynamicIsland.Has("faceId")`.
 
 ## API 1
 

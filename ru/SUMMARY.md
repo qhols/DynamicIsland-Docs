@@ -15,6 +15,7 @@
 * [ActivityHandle](reference/activity-handle.md)
 * [Widget](reference/widget.md)
 * [WidgetHandle](reference/widget-handle.md)
+* [FaceID](reference/faceid.md)
 * [DynamicIslandQueue](reference/queue.md)
 * [Типы](reference/types.md)
 

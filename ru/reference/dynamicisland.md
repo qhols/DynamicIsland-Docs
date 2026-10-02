@@ -81,7 +81,7 @@ end
 
 Говорит, поддерживает ли эта версия островка нужную возможность. Пригодится, когда в новом SDK что-то добавится, а скрипт должен работать и на старых версиях.
 
-Возможности в API 1: `notify`, `activity`, `queue`, `levels`, `sounds`, `body`, `actions`, `trailing`, `onEnd`, `staleAfter`, `endAfter`, `playSound`, `focus`. Добавлено в API 2: `widgets`.
+Возможности в API 1: `notify`, `activity`, `queue`, `levels`, `sounds`, `body`, `actions`, `trailing`, `onEnd`, `staleAfter`, `endAfter`, `playSound`, `focus`. Добавлено в API 2: `widgets`, `faceId`.
 
 <details>
 
